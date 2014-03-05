@@ -2,8 +2,10 @@ WHAT
 =================
 Does what the name says, keep user from loitering too long on fb. :p
 
-1. Simple js that can be installed using GreaseMonkey or TamperMonkey.
+HOW
+=================
+Simple user.js that can be installed using GreaseMonkey or TamperMonkey.
+
+OR
 ==
-2. 
-==
-can always just copy and paste into browser console to use.
+Just copy and paste into console to activate
