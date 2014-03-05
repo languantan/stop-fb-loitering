@@ -29,10 +29,10 @@ function timeScript(){
         
        var main = function(){
             
-            timeout = sessionStorage.getItem('fbtime');
+            timeout = localStorage.getItem('fbtime');
             if (!timeout){
                 timeout =  prompt('How long do you wanna stay on Facebook?', 'in minutes') * 60000;
-                sessionStorage.setItem('fbtime', timeout);
+                localStorage.setItem('fbtime', timeout);
             }
             setInterval(timerAction, 5000);
         }
@@ -41,7 +41,7 @@ function timeScript(){
             console.log(timeout/1000 + " seconds left");
             timeout -= 5000;
             if (timeout > 0){
-                sessionStorage.setItem('fbtime', timeout);
+                localStorage.setItem('fbtime', timeout);
             } else {
                 logoutAction();
             }
@@ -50,7 +50,7 @@ function timeScript(){
         var logoutAction = function(){
             console.log('Logging out');
             alert('your personally defined time is up');
-            sessionStorage.removeItem('fbtime');
+            localStorage.removeItem('fbtime');
             logoutForm.submit();   
         }
         
