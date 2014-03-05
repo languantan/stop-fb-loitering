@@ -38,7 +38,7 @@ function timeScript(){
         }
         
         var timerAction = function(){
-            console.log(timeout + " milliseconds left");
+            console.log(timeout/1000 + " seconds left");
             timeout -= 5000;
             if (timeout > 0){
                 sessionStorage.setItem('fbtime', timeout);
