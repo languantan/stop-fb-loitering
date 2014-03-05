@@ -3,7 +3,7 @@
 // @namespace  http://github.com/languantan/stop-fb-loitering
 // @updateURL  https://raw.github.com/languantan/stop-fb-loitering/master/timeCheck.user.js
 // @downloadURL https://raw.github.com/languantan/stop-fb-loitering/master/timeCheck.user.js
-// @version    0.1
+// @version    0.1.1
 // @description  stop user from spending too much time on facebook
 // @match      https://www.facebook.com/*
 // @copyright  2012+, languantan
