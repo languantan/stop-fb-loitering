@@ -38,7 +38,7 @@ function timeScript(){
         }
         
         var timerAction = function(){
-            console.log(timeout/1000 + " seconds left");
+            //console.log(timeout/1000 + " seconds left");
             timeout -= 5000;
             if (timeout > 0){
                 localStorage.setItem('fbtime', timeout);
