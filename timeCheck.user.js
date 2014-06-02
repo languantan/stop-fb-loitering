@@ -23,7 +23,7 @@ function timeScript(){
                 console.log('found logoutForm');
                 main();
             } else {
-                console.log('not logged in');
+                console.log('not logged in yet');
             }
         }
         
