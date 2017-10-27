@@ -31,7 +31,7 @@ function timeScript(){
             
             timeout = localStorage.getItem('fbtime');
             if (!timeout){
-                timeout =  prompt('How long do you wanna stay on Facebook?', 'in minutes') * 60000;
+                timeout =  prompt('How long do you wanna stay on Facebook? (forever is not an option)', 'in minutes') * 60000;
                 localStorage.setItem('fbtime', timeout);
             }
             setInterval(timerAction, 5000);
